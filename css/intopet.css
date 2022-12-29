@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+
+* {margin:0; padding:0; box-sizing:border:box;}
+#layout {display:block; width:1200px; max-width:100%; margin:auto;}
+a {text-decoration:none; color:black;}
+
+#header  {width:100%; border:none; text-align:center; font-size:1.3rem; 
+          border:1px solid white; background:white;}
+
+		
+img{display:block; max-width:100%;}
+main> div {display:flex;}
+
+
+#layout h1 {margin:0; font-size:3rem;}
+main h2 {padding:50px 0 0 70px;}
+#layout a {color:black;}
+			
+#login {float:right; transform:translateX(375px); margin-top:5px;}
+
+.top {border:0px solid red; display:flex; flex:1;}
+.top>div {display:flex; width:70%; padding:30px; border:0px solid red;}
+.top>div>section {border:0px solid yellow; width:120%;}
+.top>div img {width:80%; margin:auto; transform:translateY(-40px);}
+.top>div h3 {font-size:1rem; text-align:center; transform:translateY(-135px);
+             color:white;}
+
+#as {transform:translateY(-170px); width:70%;}
+
+#cal {float:right; float:right;}
+aside {width:55%;}
+ 
+#dogcat img {width:120%; transform:translateY(-120px);}
+
+
+	 
+	 
+	 
+	 
+	 
+	 

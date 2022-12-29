@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>인투펫</title>
+<script src="js/jquery-1.12.3.js"></script>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ <link rel="stylesheet" type="text/css" href="css/intopet.css">
+</head>
+<style>
+
+* {margin:0; padding:0; box-sizing:border:box;}
+#layout {display:block; width:1200px; max-width:100%; margin:auto;}
+a {text-decoration:none; color:black;}
+.material-symbols-outlined {font-variation-settings:   'FILL' 0,
+                            'wght' 1000,   'GRAD' 0,   'opsz' 48}
+		
+img{display:block; max-width:100%;}
+
+header {border:0px solid red; background:#f4dacd; display:flex; align-items:flex-end; height:90px;}
+header .logo {flex:1; display:flex; align-items:center; justify-content:center;}
+header .logo > a {margin-right:50px; }
+header .logo > a img {width:80px; }
+
+#serch {border:1px solid red; padding:10px; display:flex;}
+#serch label {border:1px solid #ccc; padding:2px 5px 2px 1px; 
+              margin:4px;}
+#serch input {text-size:1.5rem; float:right;}	   
+		   
+#aa {background:lightgray; display:flex; padding:20px 50px 20px 50px; justify-content:space-between;
+     }
+#aa a {font-size:1.3rem; font-weight:bold;}
+
+</style>
+<body>
+   <div id="layout">
+	   <header>
+	    <nav class="logo">
+		  <a href="#"><img src="images/logo.png" alt="로고"></a>
+          <h1><a href="index.html">IntoPET</a></h1>  
+		</nav>
+		<nav id="icon">
+	      <span class="material-symbols-outlined">person</span>
+          <span class="material-symbols-outlined">call</span>
+          <span class="material-symbols-outlined">shopping_cart</span>
+		</nav>
+      </header>
+	   <main>
+		<nav id="serch">
+	      <label>검색</label>
+		  <input type="search">
+		  <a href="#" id="login">로그인 / 회원가입</a>
+	   </nav>
+	   	<nav id="aa">
+          <a href="serch.html" class="menu">병원 검색</a>
+	      <a href="weight.html" class="menu">체중 관리</a>
+	      <a href="#" class="menu">라이프로그</a>
+	      <a href="#" class="menu">펫과사전</a>
+	      <a href="#" class="menu">쇼핑</a>
+       </nav>
+	  </main> 
+   </div>
+</body>
+</html>
