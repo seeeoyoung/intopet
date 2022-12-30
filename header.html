@@ -18,12 +18,12 @@ a {text-decoration:none; color:black;}
 		
 img{display:block; max-width:100%;}
 
-header {border:0px solid red; background:#f4dacd; display:flex; align-items:flex-end; height:90px;}
+header {border:0px solid red; background:#f4dacd; display:flex; align-items:flex-end;    height:90px;}
 header .logo {flex:1; display:flex; align-items:center; justify-content:center;}
 header .logo > a {margin-right:50px; }
 header .logo > a img {width:80px; }
 
-#serch {border:1px solid red; padding:10px; display:flex;}
+#serch {border:0px solid red; padding:10px; display:flex;}
 #serch label {border:1px solid #ccc; padding:2px 5px 2px 1px; 
               margin:4px;}
 #serch input {text-size:1.5rem; float:right;}	   
@@ -37,8 +37,8 @@ header .logo > a img {width:80px; }
    <div id="layout">
 	   <header>
 	    <nav class="logo">
-		  <a href="#"><img src="images/logo.png" alt="로고"></a>
-          <h1><a href="index.html">IntoPET</a></h1>  
+		  <a href="index.html" target="_parent"><img src="images/logo.png" alt="로고"></a>
+          <h1><a href="index.html" target="_parent">IntoPET</a></h1>  
 		</nav>
 		<nav id="icon">
 	      <span class="material-symbols-outlined">person</span>
@@ -53,11 +53,11 @@ header .logo > a img {width:80px; }
 		  <a href="#" id="login">로그인 / 회원가입</a>
 	   </nav>
 	   	<nav id="aa">
-          <a href="serch.html" class="menu">병원 검색</a>
-	      <a href="weight.html" class="menu">체중 관리</a>
-	      <a href="#" class="menu">라이프로그</a>
-	      <a href="#" class="menu">펫과사전</a>
-	      <a href="#" class="menu">쇼핑</a>
+          <a href="serch.html" class="menu" target="_parent">병원 검색</a>
+	      <a href="weight.html" class="menu" target="_parent">체중 관리</a>
+	      <a href="life.html" class="menu" target="_parent">라이프로그</a>
+	      <a href="pet.html" class="menu" target="_parent">펫과사전</a>
+	      <a href="shop.html" class="menu" target="_parent">쇼핑</a>
        </nav>
 	  </main> 
    </div>

@@ -12,10 +12,11 @@
 embed {width:100%; height:220px;}
 h2 {text-align:center; border-bottom:1px solid black;}
 main img {width:50%;}
-section input{display:block;}
+section input {margin:5px;}
 main>section {display:flex; transform:translateX(50px);}
-main div {padding:80px;}
-
+main div {padding:80px; border:0px solid red; width:200px;}
+h3 {background:#bfe5f0; padding:4px; margin:5px; text-align:center;}
+ 
 </style>
 <body>
    <div id="layout">
@@ -26,16 +27,26 @@ main div {padding:80px;}
 	   <img src='images/we.jpg' alt='체중관리'>
 	   <section>
 	   <div>
+	   
 	     <h3>현재 체중 입력하기</h3>
+		 <label for='date'>날짜 입력</label>
+		 <input type='text' name='data'>
+		 <label for='weight'>현재체중 입력</label>
+		 <input type='text' name='weight'>
+	
 		 <h3>비만도 체크하기</h3>
-
-         <input type='radio' name='radio' value='11'>마름(BCS1)</input>
-		 <input type='radio' name='radio' value='11'>날씬(BCS2)</input>
-		 <input type='radio' name='radio' value='11'>정상(BCS3)</input>
-		 <input type='radio' name='radio' value='11'>과체중(BCS4)</input>
-		 <input type='radio' name='radio' value='11'>비만(BCS5)</input>
-
-		 <div>
+         <input type='radio' id='BCS1' name='radio' value='11'>
+		 <label for='BCS1'>마름(BCS1)</label><br>
+		 <input type='radio' id='BCS2' name='radio' value='11'>
+		 <label for='BCS2'>날씬(BCS2)</label><br>
+		 <input type='radio' id='BCS3' name='radio' value='11'>
+		 <label for='BCS3'>정상(BCS3)</label><br>
+		 <input type='radio' id='BCS4' name='radio' value='11'>
+		 <label for='BCS4'>과체중(BCS4)</label><br>
+		 <input type='radio' id='BCS5' name='radio' value='11'>
+         <label for='BCS5'>비만(BCS5)</label>
+		 </div>
+		 
 	   </section>
 	   </section>
     </main>
