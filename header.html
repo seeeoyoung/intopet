@@ -23,14 +23,22 @@ header .logo {flex:1; display:flex; align-items:center; justify-content:center;}
 header .logo > a {margin-right:50px; }
 header .logo > a img {width:80px; }
 
-#serch {border:0px solid red; padding:10px; display:flex;}
-#serch label {border:1px solid #ccc; padding:2px 5px 2px 1px; 
-              margin:4px;}
-#serch input {text-size:1.5rem; float:right;}	   
+#serch 	   {border:0px solid red; height:70px; padding-top:30px;}
+#serch>div {/*float:right;*/  width:500px; margin-right:0; margin-left:auto; display:flex;}
+#serch>div>div {position:relative; /*overflow:hidden;*/}
+#serch button {position:absolute; left:1px; top:1px; border:none; background:white; height:95%; border-top-left-radius:3.7pt; border-bottom-left-radius:3.7pt;
+background:lightgray; padding:5px;}
+/*  #serch label {border:1px solid #ccc; padding:2px 5px 2px 1px; 
+              margin:4px;} */
+#serch input {text-size:1.5rem; /*float:right;*/ width:200px; height:35px; border-radius:5px; border:1px solid #777;}	   
 		   
 #aa {background:lightgray; display:flex; padding:20px 50px 20px 50px; justify-content:space-between;
      }
+#login {padding-left:50px;}
 #aa a {font-size:1.3rem; font-weight:bold;}
+main {border:0px solid red;}
+#layout {border:0px solid blue; }
+nav {border:0px solid yellow;}
 
 </style>
 <body>
@@ -48,12 +56,17 @@ header .logo > a img {width:80px; }
       </header>
 	   <main>
 		<nav id="serch">
-	      <label>검색</label>
-		  <input type="search">
-		  <a href="#" id="login">로그인 / 회원가입</a>
+			<div>
+			  <!--<label>검색</label>-->			  
+			  <div>
+				<input type="search">
+				<button>검 색</button>
+			  </div>
+			  <a href="#" id="login">로그인 / 회원가입</a>
+			</div>
 	   </nav>
 	   	<nav id="aa">
-          <a href="serch.html" class="menu" target="_parent">병원 검색</a>
+          <a href="search.html" class="menu" target="_parent">병원 검색</a>
 	      <a href="weight.html" class="menu" target="_parent">체중 관리</a>
 	      <a href="life.html" class="menu" target="_parent">라이프로그</a>
 	      <a href="pet.html" class="menu" target="_parent">펫과사전</a>

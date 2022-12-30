@@ -5,19 +5,18 @@
 #layout {display:block; width:1200px; max-width:100%; margin:auto;}
 a {text-decoration:none; color:black;}
 
-#header  {width:100%; border:none; text-align:center; font-size:1.3rem; 
-          border:1px solid white; background:white;}
+
 
 		
 img{display:block; max-width:100%;}
-main> div {display:flex;}
+
 
 
 #layout h1 {margin:0; font-size:3rem;}
 main h2 {padding:50px 0 0 70px;}
 #layout a {color:black;}
 			
-#login {float:right; transform:translateX(375px); margin-top:5px;}
+
 
 .top {border:0px solid red; display:flex; flex:1;}
 .top>div {display:flex; width:70%; padding:30px; border:0px solid red;}

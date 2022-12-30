@@ -11,22 +11,19 @@
 <style>
 embed {width:100%; height:280px;}
 h2 {text-align:center; border-bottom:1px solid black;}
-button {padding:10px 70px 10px 70px;  border:none; font-weight:bold; font-size:1rem; cursor:pointer;
-        border-radius:5px;}
-#cc  {background:orange;}
-#button {display:flex;  border:0px solid red; margin-left:450px; margin-top:20px;
-         margin-bottom:10px;}
+section {display:flex; padding-top:30px; transform:translateX(60px);}
+section iframe {transform:translateY(70px);}
+section img {width:40%;}
 </style>
 <body>
    <div id="layout">
     <embed src="header.html">
      <main>
-       <h2>쇼핑</h2>
-	   <div id='button'>
-       <a href='shop.html' target="_parent"><button type='button' id='cc'>강아지</button></a>
-	   <a href='shop1.html' target="_parent"><button type='button' >고양이</button></a>
-	   </div>
-	   <img src='images/shopdog.jpg' alt='강아지'>
+       <h2>주변 동물병원 찾기</h2>
+	   <section>
+	   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3167.8832642200823!2d127.127853177423!3d37.43986238968678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca89da9cf2661%3A0x6028960839ccf08!2z7YOc7Y-J7Jet64-Z66y867OR7JuQ!5e0!3m2!1sko!2skr!4v1672215927124!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	   <img src='images/ser.jpg' alt='지도'>
+	   </section>
     </main>
 </body>
     <footer><img src="images/footer.jpg" alt="하단"></footer>
